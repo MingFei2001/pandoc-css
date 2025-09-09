@@ -93,3 +93,7 @@ pandoc -s input.md -o output.html --css=pandoc-css/themes/basic/dark.css --css=c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author Comment
+
+*I totally vibe coded this project lol.*
