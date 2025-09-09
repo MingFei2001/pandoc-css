@@ -1,0 +1,59 @@
+/* Nord theme */
+body {
+  background-color: #2E3440;
+  color: #D8DEE9;
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ECEFF4;
+  border-bottom: 1px solid #4C566A;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+a { color: #81A1C1; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+pre, code {
+  background-color: #3B4252;
+  color: #D8DEE9;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre { padding: 1em; overflow-x: auto; }
+
+blockquote {
+  border-left: 4px solid #4C566A;
+  color: #D8DEE9;
+  margin: 1em 0;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+ul, ol { padding-left: 1.5em; }
+
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+}
+table, th, td { border: 1px solid #4C566A; }
+th, td { padding: 0.5em; }
+th { background-color: #434C5E; color: #ECEFF4; }
+
+img, video, iframe { max-width: 100%; height: auto; display: block; margin: 1em auto; }
+
+hr { border: none; border-top: 1px solid #4C566A; margin: 2em 0; }
+
+p { margin: 1em 0; }
+
