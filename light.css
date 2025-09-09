@@ -1,0 +1,96 @@
+/* Base body styles */
+body {
+  background-color: #ffffff;
+  color: #1e1e1e;
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #111111;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks and inline code */
+pre, code {
+  background-color: #f5f5f5;
+  color: #c7254e;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #ccc;
+  margin: 1em 0;
+  padding-left: 1em;
+  color: #666;
+  font-style: italic;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5em;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 0.5em;
+}
+th {
+  background: #eee;
+  color: #111;
+}
+
+/* Media (images, videos, iframes) */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
+}
+
+/* Paragraph spacing */
+p {
+  margin: 1em 0;
+}
+

@@ -1,0 +1,47 @@
+/* Latte - light variant */
+body {
+  background-color: #f5e0dc;
+  color: #4c4f69;
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1e1e2e;
+  border-bottom: 1px solid #dce0e8;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+a { color: #7287fd; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+pre, code {
+  background-color: #f2d5cf;
+  color: #575268;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre { padding: 1em; overflow-x: auto; }
+
+blockquote { border-left: 4px solid #c9cbff; color: #5c5f77; margin: 1em 0; padding-left: 1em; font-style: italic; }
+
+ul, ol { padding-left: 1.5em; }
+
+table { border-collapse: collapse; margin: 1em 0; width: 100%; display: block; overflow-x: auto; }
+table, th, td { border: 1px solid #dce0e8; }
+th, td { padding: 0.5em; }
+th { background-color: #dce0e8; color: #111; }
+
+img, video, iframe { max-width: 100%; height: auto; display: block; margin: 1em auto; }
+
+hr { border: none; border-top: 1px solid #dce0e8; margin: 2em 0; }
+
+p { margin: 1em 0; }
+
