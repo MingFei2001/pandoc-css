@@ -13,24 +13,63 @@ git clone https://github.com/MingFei2001/pandoc-css.git
 
 ```bash
 # Convert to HTML
-pandoc -s input.md -o output.html --css=pandoc-css/dark.css
+pandoc -s input.md -o output.html --css=pandoc-css/themes/basic/dark.css
 
 # Convert to PDF
-pandoc input.md -o output.pdf --css=pandoc-css/dark.css --pdf-engine=wkhtmltopdf
+pandoc input.md -o output.pdf --css=pandoc-css/themes/basic/dark.css --pdf-engine=wkhtmltopdf
 ```
 
 Example:
 ```bash
-pandoc document.md -o document.html --css=pandoc-css/light.css
+pandoc document.md -o document.html --css=pandoc-css/themes/basic/light.css
 ```
 
 ## Available Themes
 
-- `light.css` - Light theme
-- `dark.css` - Dark theme
-- `nord.css` - Nord theme
-- `onedark.css` - OneDark theme
-- `catppuccin/` - Catppuccin theme variants
+### Basic Themes
+- `themes/basic/light.css` - Clean light theme
+- `themes/basic/dark.css` - Modern dark theme
+
+### Editor-Inspired Themes
+- `themes/editor-inspired/nord.css` - Arctic-inspired Nord theme
+- `themes/editor-inspired/onedark.css` - Atom's One Dark theme
+- `themes/editor-inspired/everforest.css` - Green forest theme
+- `themes/editor-inspired/kanagawa.css` - Japanese-inspired theme
+- `themes/editor-inspired/monokai.css` - Classic Monokai theme
+- `themes/editor-inspired/tokyo-night.css` - Tokyo Night theme
+
+### Gruvbox Collection
+- `themes/gruvbox/gruvbox-light.css` - Gruvbox light variant
+- `themes/gruvbox/gruvbox-dark.css` - Gruvbox dark variant
+
+### Solarized Collection
+- `themes/solarized/solarized-light.css` - Solarized light theme
+- `themes/solarized/solarized-dark.css` - Solarized dark theme
+
+### Catppuccin Collection
+- `themes/catppuccin/catppuccin-latte.css` - Light, warm pastel theme
+- `themes/catppuccin/catppuccin-frappe.css` - Cool, muted theme
+- `themes/catppuccin/catppuccin-macchiato.css` - Rich, darker theme
+- `themes/catppuccin/catppuccin-mocha.css` - Deep dark theme
+
+## Customization
+
+You can customize fonts by adding your own CSS after the theme. For example, to use JetBrains Mono Nerd Font:
+
+```css
+body {
+  font-family: "JetBrains Mono", monospace;
+}
+
+pre, code {
+  font-family: "JetBrains Mono Nerd Font", monospace;
+}
+```
+
+Save this as `custom.css` and use both files:
+```bash
+pandoc -s input.md -o output.html --css=pandoc-css/themes/basic/dark.css --css=custom.css
+```
 
 ## Acknowledgments
 
