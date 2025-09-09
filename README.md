@@ -19,10 +19,22 @@ pandoc -s input.md -o output.html --css=pandoc-css/themes/basic/dark.css
 pandoc input.md -o output.pdf --css=pandoc-css/themes/basic/dark.css --pdf-engine=wkhtmltopdf
 ```
 
-Example:
+## Try It Out
+
+Test any theme using the included demo file:
+
 ```bash
-pandoc document.md -o document.html --css=pandoc-css/themes/basic/light.css
+# Test with the Nord theme
+pandoc -s demo.md -o demo-nord.html --css=themes/editor-inspired/nord.css
+
+# Test with Catppuccin Mocha
+pandoc -s demo.md -o demo-mocha.html --css=themes/catppuccin/catppuccin-mocha.css
+
+# Test with your own document
+pandoc document.md -o document.html --css=themes/basic/light.css
 ```
+
+The `demo.md` file includes various markdown elements (headings, code blocks, tables, lists, etc.) so you can see how each theme handles different content types.
 
 ## Available Themes
 
