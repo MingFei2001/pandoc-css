@@ -89,6 +89,12 @@ pandoc -s input.md -o output.html --css=pandoc-css/themes/basic/dark.css --css=c
 - [Nord](https://www.nordtheme.com/) - Arctic-inspired color palette
 - [Catppuccin](https://github.com/catppuccin/catppuccin) - Soothing pastel theme
 - [One Dark](https://github.com/atom/atom/tree/master/packages/one-dark-syntax) - Atom's syntax theme
+- [Gruvbox](https://github.com/morhetz/gruvbox) - Retro groove color scheme
+- [Solarized](https://ethanschoonover.com/solarized/) - Precision colors for machines and people
+- [Everforest](https://github.com/sainnhe/everforest) - Green based color scheme
+- [Kanagawa](https://github.com/rebelot/kanagawa.nvim) - NeoVim dark colorscheme inspired by Katsushika Hokusai
+- [Monokai](https://monokai.pro/) - Original color scheme by Wimer Hazenberg
+- [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme) - Clean dark theme
 
 ## License
 
