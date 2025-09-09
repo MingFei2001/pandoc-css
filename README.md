@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author Comment
 
-*I totally vibe coded this project lol.*
+*No cap I totally vibe coded this project lol.*
