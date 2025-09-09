@@ -1,7 +1,7 @@
 # Pandoc CSS
 
 <div align="center">
-  <img src="shuba.gif" alt="Shuba Duck GIF" width="400">
+  <img src="shuba.gif" alt="Shuba Duck GIF" width="200">
 </div>
 
 A collection of CSS themes for styling HTML documents generated with [Pandoc](https://pandoc.org/), a universal document converter that can convert between many different markup formats.
